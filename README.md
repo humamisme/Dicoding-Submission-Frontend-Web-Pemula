@@ -1,5 +1,5 @@
 # Dicoding-Submission-Frontend-Web-Pemula
-Aplikasi Web untuk menyelesaikan Submission kelas Belajar Membuat Front-End Web untuk Pemula dari Dicoding
+Aplikasi Web untuk menyelesaikan Submission kelas Belajar Membuat Frontend Web untuk Pemula dari Dicoding
 
 ## Screenshot
 ### Normal View
