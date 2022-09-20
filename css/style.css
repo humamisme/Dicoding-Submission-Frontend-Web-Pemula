@@ -308,11 +308,16 @@ a{
 .text-author{
   font-size: 0.95rem;
   color: #393E46;
+
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 .text-year{
   font-size: 0.95rem;
   font-weight: 500;
   color: #fa686f;
+  margin-top: 8px;
 }
 .content-btn{
   display: flex;
