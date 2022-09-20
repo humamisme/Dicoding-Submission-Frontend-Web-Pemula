@@ -1,0 +1,81 @@
+/* BASE */
+.btn{
+  height: 32px;
+  width: 32px;
+  border: 0;
+  border-radius: 4px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.top-bar .btn:hover{
+  opacity: 0.75;
+}
+
+/* BUTTONS */
+.btn-dashboard{
+  background: url('../assets/dashboard-solid.svg') no-repeat center;
+  background-size: cover;
+}
+.btn-dashboard.clicked{
+  transform: scaleY(-1);
+}
+
+.btn-search-toggle{
+  background: url('../assets/search-outline.svg') no-repeat center;
+  background-size: cover;
+  transition: 300ms;
+}
+.btn-search-toggle.active{
+  background: url('../assets/search-outline-close.svg') no-repeat center;
+  transform: rotate(180deg) scaleY(-1);
+  background-size: cover;
+  transition: 300ms;
+}
+
+.btn-add{
+  background: url('../assets/add-outline.svg') no-repeat center;
+  background-size: cover;
+  transition: 400ms;
+}
+.btn-add.clicked{
+  background: url('../assets/add-solid.svg') no-repeat center;
+  background-size: cover;
+  transform: rotate(90deg);
+  transition: 400ms;
+}
+
+.btn-search{
+  background: url('../assets/search-outline-light.svg') no-repeat center;
+  height: 32px;
+  width: 32px;
+  border: 0;
+  border-radius: 4px;
+  pointer-events: none;
+}
+
+.btn-check{
+  background: url("../assets/check-outline.svg") no-repeat center;
+}
+.btn-check:hover{
+  background: url("../assets/check-solid.svg") no-repeat center;
+}
+.btn-undo{
+  background: url("../assets/undo.svg") no-repeat center;
+}
+.btn-undo:hover{
+  transform: rotate(-90deg);
+}
+
+.btn-edit{
+  background: url("../assets/edit-outline.svg") no-repeat center;
+}
+.btn-edit:hover{
+  background: url("../assets/edit-solid.svg") no-repeat center;
+}
+
+.btn-trash{
+  background: url("../assets/trash-outline.svg") no-repeat center;
+}
+.btn-trash:hover{
+  background: url("../assets/trash-solid.svg") no-repeat center;
+}
